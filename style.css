@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 193, 1) 100%);
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-shadow: 2px 2px #F50057;
+    color: #64DD17;
+}
+
+h2 {
+    text-shadow: 2px 2px #FF1744;
+    color: #FFD600;
+}
+
+#bio {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 19px;
+    color: darkred;
+    text-align: center;
+}
