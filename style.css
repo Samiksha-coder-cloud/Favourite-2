@@ -12,6 +12,7 @@ img {
 h1 {
     text-shadow: 2px 2px #F50057;
     color: #64DD17;
+    font-family: 'Orelega One', cursive;
 }
 
 h2 {
@@ -25,7 +26,46 @@ h2 {
 }
 
 p {
-    font-size: 19px;
+    font-size: 20px;
     color: darkred;
     text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    margin-top: 0px;
+    position: fixed;
+}
+
+.links {
+    display: inline;
+    padding-left: 15px;
+    color: turquoise;
+    font-size: 15px;
+}
+.links:hover {
+    background-color:blueviolet;
+    font-size: 20px;
+    text-shadow: 2px 2px red;
+}
+.line {
+    margin: auto;
+    height: 7px;
+    background-color: black;
+    width: 100;
+}
+.book {
+    display: inline;
+}
+.book:hover {
+    color:darkblue;
+}
+html {
+    scroll-behavior: smooth;
 }
