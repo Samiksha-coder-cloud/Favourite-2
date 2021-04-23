@@ -70,3 +70,8 @@ p {
 html {
     scroll-behavior: smooth;
 }
+.my-Image {
+    height: 200px;
+    width: 260px;
+    border-radius: 0;
+}
