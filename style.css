@@ -41,6 +41,7 @@ p {
     color: black;
     margin-top: 0px;
     position: fixed;
+    text-decoration: none;
 }
 
 .links {
@@ -48,7 +49,6 @@ p {
     padding-left: 15px;
     color: turquoise;
     font-size: 15px;
-    text-decoration: none;
 }
 .links:hover {
     background-color:blueviolet;
