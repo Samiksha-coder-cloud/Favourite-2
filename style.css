@@ -50,28 +50,50 @@ p {
     color: turquoise;
     font-size: 15px;
 }
+
 .links:hover {
-    background-color:blueviolet;
+    background-color: blueviolet;
     font-size: 20px;
     text-shadow: 2px 2px red;
 }
+
 .line {
     margin: auto;
     height: 7px;
     background-color: black;
     width: 100;
 }
+
 .book {
     display: inline;
 }
+
 .book:hover {
-    color:darkblue;
+    color: darkblue;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .my-Image {
     height: 200px;
     width: 260px;
     border-radius: 0;
+}
+
+#picture {
+    transition: transform .2s;
+    border: 10px solid red;
+    height: 400px;
+    width: 250px;
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
+
+#img_name {
+    font-size: 30px;
+    color: floralwhite;
 }
